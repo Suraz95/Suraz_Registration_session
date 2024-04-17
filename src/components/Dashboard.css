@@ -1,0 +1,28 @@
+.dashboard-container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  table {
+    width: 80%;
+    /* border-collapse: collapse; */
+    /* border :2px sloid black; */
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color:rgba(96, 94, 91, 0.227);
+  }
+  
+  tr:hover {
+    background-color:antiquewhite;
+  }
+  
